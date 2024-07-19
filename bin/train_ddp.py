@@ -99,7 +99,7 @@ if __name__ == "__main__":
     C = parse_config(TrainDefaults)
     run = wandb.init(
         # Set the project where this run will be logged
-        project="crystallm-art-bench",
+        project="crystallm-art-prod",
         name=C.out_dir.split('/')[-1],
         # Track hyperparameters and run metadata
         config={
